@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f9f9f9;
+            margin: 0.5rem 0;
+            padding: 0.75rem;
+            border-radius: 4px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1rem;
+            background: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Willkommen auf meiner Profil-Website!</h1>
+    </header>
+
+    <div class="container">
+        <h2>Über mich</h2>
+        <p>Hallo! Mein Name ist [Dein Name]. Ich bin [Alter] Jahre alt und interessiere mich für [deine Interessen].</p>
+
+        <h2>Fähigkeiten</h2>
+        <ul>
+            <li>Programmierung in HTML, CSS und JavaScript</li>
+            <li>Grafikdesign</li>
+            <li>Problemlösung</li>
+            <li>[weitere Fähigkeiten]</li>
+        </ul>
+
+        <h2>Kontakt</h2>
+        <p>Du kannst mich unter <a href="mailto:deine-email@example.com">deine-email@example.com</a> erreichen.</p>
+    </div>
+
+    <footer>
+        &copy; 2025 [Dein Name]. Alle Rechte vorbehalten.
+    </footer>
+</body>
+</html>
